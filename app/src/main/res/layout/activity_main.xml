@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/magic_wallet" />
+
+    <TextView
+        android:id="@+id/text_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/heebo_extrabold"
+        android:text="@string/product_name"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/heebo_medium"
+        android:text="@string/price"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_product_description_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/heebo_extrabold"
+        android:text="@string/product_description_label"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/heebo_medium"
+        android:text="@string/product_description"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_add_to_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:text="@string/button_add_to_cart" />
+
+    <TextView
+        android:id="@+id/text_product_reviews_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/heebo_extrabold"
+        android:text="@string/product_reviews_label"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_product_reviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/heebo_medium"
+        android:text="@string/product_reviews"
+        android:textSize="14sp" />
+
+</LinearLayout>

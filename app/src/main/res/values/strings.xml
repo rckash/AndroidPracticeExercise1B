@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidPracticeExercise1B</string>
+    <string name="product_name">Magic Wallet</string>
+    <string name="price">Price: 49 999.75 php</string>
+    <string name="product_description_label">Product Description</string>
+    <string name="product_description">Magic Wallet na hindi nauubusan ng laman pero 5 piso lang ang pwede mong makuha sa bawat dukot.</string>
+    <string name="product_reviews_label">Product Reviews</string>
+    <string name="product_reviews">No reviews yet</string>
+    <string name="button_add_to_cart">Add to Cart</string>
+</resources>
